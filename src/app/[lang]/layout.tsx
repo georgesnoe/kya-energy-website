@@ -2,10 +2,17 @@ import type { Metadata } from "next";
 import { i18n, Locale } from "@/lib/i18n.config";
 import { getTranslation } from "@/lib/get-translation";
 import TranslationsType from "@/translations/translations.definition";
+import { Libre_Franklin } from "next/font/google";
 import Header from "@/components/Header";
 import "@/styles/globals.css";
 import Footer from "@/components/Footer";
 import localFont from "next/font/local";
+
+const libreFranklin = Libre_Franklin({
+  subsets: ["latin"],
+  variable: "--font-libre-franklin"
+});
+
 
 const arialNarrow = localFont({
   src: [
@@ -31,6 +38,17 @@ const arialNarrow = localFont({
     },
   ],
   variable: "--font-arial-narrow",
+});
+
+const facebookSans = localFont({
+  src: [
+    {
+      path: "../../../public/fonts/facebook-sans/FacebookSansHeavy.ttf",
+      weight: "800",
+      style: "normal",
+    },
+  ],
+  variable: "--font-facebook-sans",
 });
 
 const timesNewRoman = localFont({
@@ -126,7 +144,7 @@ export default async function RootLayout({
   return (
     <html lang={lang}>
       <body
-        className={`bg-gray-100 dark:bg-gray-900 ${arialNarrow.className} ${arialNarrow.variable} ${timesNewRoman.variable} antialiased`}>
+        className={`bg-gray-100 dark:bg-gray-900 ${libreFranklin.variable} ${libreFranklin.className} ${facebookSans.variable}  ${arialNarrow.variable} ${timesNewRoman.variable} antialiased`}>
         <Header dictionary={dictionary} />
         <main className="pt-24 md:pt-36">{children}</main>
         <Footer />

@@ -1,0 +1,440 @@
+/*
+  Products & Services Page Stylesheet
+  - Styles based on the provided PDF mockup
+  - Uses CSS variables from globals.css
+*/
+
+/* General Section Styling */
+.section {
+  padding: 4rem 1rem;
+  overflow: hidden;
+}
+
+.section_title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  position: relative;
+}
+
+/* Green underline for titles */
+.section_title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background-color: var(--kya-green);
+  border-radius: 2px;
+}
+
+.section_subtitle {
+  font-size: 1.125rem;
+  text-align: center;
+  color: #555;
+  margin-bottom: 3rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Promotional Offers Section */
+.promo_container {
+  max-width: 900px;
+  margin: 2rem auto 0;
+  background-color: #e9f4f3; /* Light green from mockup */
+  border-radius: 1rem;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.promo_button {
+  display: block;
+  margin: 1.5rem auto 0;
+  background-color: var(--kya-green);
+  color: white;
+  font-weight: bold;
+  padding: 0.75rem 2rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.promo_button:hover {
+  background-color: #15803d;
+}
+
+/* Swiper Customization for Promo Carousel */
+.promo_carousel {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper_button_prev,
+.swiper_button_next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.swiper_button_prev:hover,
+.swiper_button_next:hover {
+  background-color: var(--kya-green);
+}
+
+.swiper_button_prev:hover::after,
+.swiper_button_next:hover::after {
+  color: white;
+}
+
+.swiper_button_prev {
+  left: 10px;
+}
+
+.swiper_button_next {
+  right: 10px;
+}
+
+.swiper_button_prev::after,
+.swiper_button_next::after {
+  font-family: "swiper-icons";
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--kya-green);
+  transition: color 0.3s ease;
+}
+
+.swiper_button_prev::after {
+  content: "prev";
+  display: flex;
+  justify-content: right;
+}
+
+.swiper_button_next::after {
+  content: "next";
+}
+
+.promo_slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10rem;
+}
+
+/* Product Lines (Accordion) Section */
+.accordion {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.accordion_item {
+  background-color: #f9fafb;
+  border-radius: 0.5rem;
+  border-top: 1px solid #e5e7eb;
+  padding: 1rem;
+  transition: all 300ms ease-in-out;
+}
+
+.accordion_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  gap: 1rem;
+
+}
+
+.accordion_header_content {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.accordion_image {
+  width: 220px;
+  height: 220px;
+  object-fit: contain;
+  background-color: var(--kya-white);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.accordion_description {
+  text-align: left;
+  flex: 1;
+}
+
+.accordion_icon {
+  font-size: 1.5rem;
+  color: var(--kya-green);
+  flex-shrink: 0;
+}
+
+.accordion_content {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 500ms cubic-bezier(0.4, 0, 0.2, 1), padding 500ms ease-in-out;
+  text-align: left;
+  padding: 0 1rem;
+}
+
+.accordion_content_inner {
+    padding: 1rem 0;
+}
+
+/* Services Section */
+.services_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.service_card {
+  background-color: var(--kya-white);
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  text-align: center;
+  transition: all 300ms ease-in-out;
+}
+
+.service_card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.service_card_image_container {
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+
+.service_card_image {
+  object-fit: cover;
+}
+
+.service_card_content {
+  padding: 1.5rem;
+}
+
+.service_card_title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--kya-orange);
+}
+
+.service_card_description {
+    color: #555;
+    margin-bottom: 1.5rem;
+}
+
+
+.service_card_cta {
+  background-color: var(--kya-green);
+  color: var(--kya-white);
+  padding: 0.6rem 1.5rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 300ms;
+}
+
+.service_card_cta:hover {
+    background-color: #15803d;
+}
+
+/* Financing Section */
+.iconWrapper {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.orang {
+  background-color: #ffd9b3;
+}
+
+.gren {
+  background-color: #c6f6d5;
+}
+
+.ble {
+  background-color: #cce0ff;
+}
+
+.icon {
+  font-size: 32px;
+}
+
+.orang .icon {
+  color: #cc3300;
+}
+
+.gren .icon {
+  color: #008000;
+}
+
+.ble .icon {
+  color: #0055ff;
+}
+.financing_grid {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 2rem;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.financing_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--kya-white);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  flex: 1;
+  min-width: 285px;
+  justify-content: center;
+}
+
+.financing_card_value {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+.financing_card_value.orange { color: var(--kya-orange); }
+.financing_card_value.green { color: var(--kya-green); }
+.financing_card_value.blue { color: #3b82f6; } /* Keeping blue for 100% */
+
+.financing_card_label {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #555;
+}
+
+/* Catalogue Banner */
+.catalogue_banner {
+  margin-top: 3rem;
+  background-color: #e0f2fe; /* Light blue from mockup */
+  padding: 2rem;
+  border-radius: 1rem;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.catalogue_text {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.catalogue_link {
+  color: #0ea5e9;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.125rem;
+}
+
+.catalogue_link:hover {
+    text-decoration: underline;
+}
+
+/* Promo Modal Styles */
+.modal_overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal_content {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  max-width: 700px;
+  width: 90%;
+  position: relative;
+  text-align: center;
+}
+
+.modal_close_button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #888;
+}
+
+.modal_close_button:hover {
+  color: #333;
+}
+
+.modal_title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: var(--kya-green);
+}
+
+.promo_image {
+  border-radius: 8px;
+  object-fit: contain;
+  width: 90%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .promo_image {
+    width: 60%;
+  }
+}

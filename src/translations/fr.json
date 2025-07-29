@@ -136,6 +136,126 @@
       "image": "agbehadji.avif"
     }
   ],
+  "kyaFoundation": {
+    "hero": {
+      "title": "NOS INITIATIVES",
+      "description": "La Fondation KYA est créée en octobre 2022. Elle a pour but de contribuer au développement socio-économique des populations africaines, issues des groupes les plus vulnérables par des interventions en faveur du développement en matière d'énergie, d'agriculture, de médecine, d'éducation et de l'environnement.",
+      "tagline": "Fondation KYA, pour un monde meilleur.",
+      "cta": "Télécharger la lettre d'engagement",
+      "stats": {
+        "employees": "Employés recrutés",
+        "mission": "Une mission",
+        "experience": "Années d'expérience"
+      }
+    },
+    "actions": {
+      "title": "Nos moyens d'actions",
+      "items": [
+        "L'octroi de bourses et subventions de formation",
+        "L'organisation des concours d'innovation",
+        "L'organisation des cours de formation, conférences, seminaires",
+        "L'appui aux entrepreneurs",
+        "Le soutien à l'autonomisation des femmes et des jeunes filles",
+        "L'appui à l'insertion socio-professionnelle des jeunes diplômés"
+      ]
+    },
+    "objectives": {
+      "title": "Nos objectifs",
+      "items": [
+        "Accroître l'accès aux services énergétiques durables en milieu rural",
+        "Promouvoir la science et la technologie chez les femmes",
+        "Promouvoir l'employabilité des jeunes en énergies renouvelables",
+        "Contribuer à l'amélioration de la qualité de l'éducation",
+        "Contribuer à l'autonomisation économique des femmes",
+        "Contribuer à la lutte contre les changements climatiques"
+      ]
+    },
+    "domains": {
+      "title": "Les domaines d'interventions",
+      "items": [
+        {
+          "title": "Education et formation",
+          "description": "La Fondation KYA soutient l’éducation des jeunes filles en sciences et technologies, en valorisant les talents et en offrant des bourses aux plus vulnérables."
+        },
+        {
+          "title": "Energies renouvelables",
+          "description": "La Fondation KYA facilite l’accès à l’énergie durable en zones rurales et forme gratuitement des filles à l’installation et à la maintenance de systèmes solaires."
+        },
+        {
+          "title": "Développement durable",
+          "description": "La Fondation KYA œuvre pour les Objectifs de Développement Durable, en se concentrant sur 7 priorités : lutte contre la pauvreté, éducation, égalité des sexes, énergie durable, emploi, climat et partenariats."
+        }
+      ]
+    },
+    "video": {
+      "title": "Découvrez notre approche et notre vision à travers cette présentation vidéo"
+    },
+    "gallery": {
+      "title": "Quelques images de nos activités"
+    },
+    "sponsors": {
+      "title": "Nos Sponsors OR"
+    }
+  },
+  "faq": {
+    "hero": {
+      "title": "FAQ",
+      "subtitle": "Une question ?<br/>On a déjà sûrement la réponse.",
+      "searchPlaceholder": "Rechercher"
+    },
+    "categories": {
+      "general": "Général",
+      "maintenance": "Maintenance",
+      "financing": "Financement",
+      "installation": "Installation"
+    },
+    "questions": [
+      {
+        "question": "Qu'est-ce qu'un KYA-SoP ?",
+        "answer": "C'est un groupe électrosolaire intelligent et localement assemblé par KYA, conçu pour répondre efficacement aux besoins énergétiques en milieux ruraux et urbains."
+      },
+      {
+        "question": "Que fait le logiciel KYA-SolDesign ?",
+        "answer": "KYA-SolDesign est un logiciel de dimensionnement et de simulation de systèmes solaires photovoltaïques."
+      },
+      {
+        "question": "Quels sont les avantages d'un système solaire KYA ?",
+        "answer": "Les avantages sont nombreux : autonomie énergétique, réduction des factures d'électricité, utilisation d'une source d'énergie propre et durable, etc."
+      },
+      {
+        "question": "Faut-il entretenir les panneaux solaires ?",
+        "answer": "Oui, un entretien régulier est recommandé pour garantir un rendement optimal. Cela inclut le nettoyage des panneaux et la vérification des composants."
+      },
+      {
+        "question": "Est-ce que les solutions solaires sont accessibles à tous ?",
+        "answer": "Oui, nous proposons des solutions de financement et d'accompagnement pour rendre nos systèmes solaires accessibles au plus grand nombre."
+      },
+      {
+        "question": "Est-ce que vous vous occupez de l'installation ?",
+        "answer": "Oui, notre équipe de techniciens qualifiés se charge de l'installation complète de votre système solaire."
+      },
+      {
+        "question": "Existe-t-il des aides ou subventions ?",
+        "answer": "Selon votre pays et votre situation, il peut exister des aides gouvernementales ou des subventions pour l'installation de systèmes solaires."
+      },
+      {
+        "question": "Quelle est la durée de vie d'un système solaire ?",
+        "answer": "Un système solaire bien entretenu peut avoir une durée de vie de plus de 25 ans."
+      },
+      {
+        "question": "Quelle est la garantie sur vos produits ?",
+        "answer": "Nous offrons une garantie sur nos produits. La durée de la garantie varie en fonction des composants du système."
+      },
+      {
+        "question": "Comment puis-je vous contacter ?",
+        "answer": "Vous pouvez nous contacter via le formulaire de contact de notre site web, par email ou par téléphone."
+      },
+      {
+        "question": "Est-ce que les systèmes solaires KYA fonctionnent en cas de délestage ?",
+        "answer": "Oui, nos systèmes peuvent être équipés de batteries pour stocker l'énergie et vous fournir de l'électricité en cas de délestage."
+      }
+    ]
+  },
   "switcher": {
     "locale": {
       "en": "Anglais",
@@ -148,5 +268,39 @@
         "dark": "Passer au mode sombre"
       }
     }
+  },
+  "products": {
+    "kya-sop-description": "Les KYA-SoP sont des systèmes solaires intelligents, locaux et fiables, adaptés à tous les environnements, avec fonction anti-délestage.",
+    "kya-soldesign-description": "KYA-SolDesign est un logiciel innovant de dimensionnement solaire, alliant fiabilité technique et accessibilité économique.",
+    "kya-ecolabel-description": "KYA-EcoLabel est un logiciel d’étiquetage qui évalue les performances écologiques et économiques des systèmes solaires comparés aux générateurs diesel.",
+    "kya-flexycontrol-description": "KYA-FlexyControl est un module de supervision à distance des installations solaires, permettant le suivi en temps réel et la gestion intelligente des priorités de consommation.",
+    "promotional-offers": "Nos offres promotionnelles",
+    "product-range": "Nos gammes de produits",
+    "product-subtitle": "Solutions énergétiques adaptées à tous vos besoins, du résidentiel au communautaire",
+    "catalog-prompt": "Consultez notre catalogue de produits KYA pour en savoir plus sur nos solutions solaires innovantes.",
+    "see-more": "Voir Plus"
+  },
+  "services": {
+    "title": "Nos services",
+    "subtitle": "Un accompagnement complet de l'étude à la maintenance de vos installations",
+    "installation-title": "INSTALLATION",
+    "installation-description": "Installation de minicentrales solaires (hybrides), Lampadaires solaires, Plateformes multifonctionnelles solaires...",
+    "audit-title": "ÉTUDE, AUDIT ET SUIVI-CONTRÔLE",
+    "audit-description": "Audit à l'exploitation et la maintenance des minicentrales Suivi et contrôle des ouvrages énergétiques solaires...",
+    "training-title": "RENFORCEMENT DE CAPACITES",
+    "training-description": "Programmes de formation pour techniciens, élèves et professionnels",
+    "rental-title": "SERVICE DE LOCATION DES KYA-SOP",
+    "rental-description": "Location clé en main de systèmes solaires autonomes",
+    "learn-more": "En Savoir Plus"
+  },
+  "financing": {
+    "title": "Financement Location-Vente KYA-SoP",
+    "subtitle": "Accédez à l'énergie solaire sans investissement initial important",
+    "down-payment": "Acompte initial seulement",
+    "repayment-period": "Durée de remboursement maximum",
+    "maintenance-included": "Installation et maintenance incluses"
+  },
+  "contact": {
+    "contact_us": "Contactez-Nous"
   }
 }

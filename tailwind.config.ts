@@ -9,6 +9,13 @@ const config: Config = {
   darkMode: "class",
   theme: {
     extend: {
+      colors: {
+        "kya-green": "var(--kya-green)",
+        "kya-orange": "var(--kya-orange)",
+        "kya-white": "var(--kya-white)",
+        "kya-yellow": "var(--kya-yellow)",
+        "kya-coffee": "var(--kya-coffee)",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

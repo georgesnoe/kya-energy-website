@@ -13,7 +13,6 @@ import {
   FaHeadphones,
   FaLeaf,
   FaPeopleGroup,
-  FaPlus,
   FaPooStorm,
   FaShield,
   FaSolarPanel,
@@ -135,7 +134,7 @@ export default async function Home({
             <h3 className="text-2xl font-bold text-kya-orange mb-4">
               Nos valeurs
             </h3>
-            <div className="grid grid-cols-2 gap-4 text-left">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-left">
               {[
                 "Professionnalisme",
                 "Esprit d'équipe",
@@ -330,7 +329,7 @@ export default async function Home({
             tous vos besoins énergetiques.
           </p>
         </div>
-        <div className="container mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {[
             {
               image: "/kya-sop-residentiel.avif",
@@ -351,13 +350,13 @@ export default async function Home({
                 "Projet d'envergure pour collectivités et institutions.",
             },
           ].map((product, index) => (
-            <div key={index} className="relative bg-white shadow-lg group z-10">
+            <div key={index} className="w-full relative bg-white shadow-lg group z-10">
               <div className="overflow-hidden">
                 <div className="h-64 w-max mx-auto">
                   <Image
                     src={product.image}
                     alt={product.title}
-                    className="h-64 w-auto"
+                    className="h-64 w-auto object-scale-down"
                     width={225}
                     height={321}
                   />
@@ -367,11 +366,6 @@ export default async function Home({
                     {product.title}
                   </h3>
                   <p className="text-gray-700">{product.description}</p>
-                </div>
-              </div>
-              <div className="absolute bottom-0 right-0 m-4 bg-radial from-kya-orange to-kya-yellow text-white p-3 rounded-full transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                <div className="p-3 bg-radial from-kya-orange to-kya-yellow rounded-full">
-                  <FaPlus size={20} />
                 </div>
               </div>
             </div>

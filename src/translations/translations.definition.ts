@@ -2,14 +2,6 @@ type Type = {
   header: {
     logo: string;
   };
-  /*
-    Awards definition here
-    image: image name under public/awards folder
-    title: title that will be shown,
-    description: a small description of how/why/what of the award
-    order: the order of award winning starting from the first that has the 1 index
-    year: the year the award was won
-  */
   awards: {
     image: string;
     title: string;
@@ -45,6 +37,40 @@ type Type = {
         dark: string;
       };
     };
+  };
+  products: {
+    "kya-sop-description": string;
+    "kya-soldesign-description": string;
+    "kya-ecolabel-description": string;
+    "kya-flexycontrol-description": string;
+    "promotional-offers": string;
+    "product-range": string;
+    "product-subtitle": string;
+    "catalog-prompt": string;
+    "see-more": string;
+  };
+  services: {
+    title: string;
+    subtitle: string;
+    "installation-title": string;
+    "installation-description": string;
+    "audit-title": string;
+    "audit-description": string;
+    "training-title": string;
+    "training-description": string;
+    "rental-title": string;
+    "rental-description": string;
+    "learn-more": string;
+  };
+  financing: {
+    title: string;
+    subtitle: string;
+    "down-payment": string;
+    "repayment-period": string;
+    "maintenance-included": string;
+  };
+  contact: {
+    contact_us: string;
   };
 };
 

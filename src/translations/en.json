@@ -136,6 +136,126 @@
       "image": "agbehadji.avif"
     }
   ],
+  "kyaFoundation": {
+    "hero": {
+      "title": "OUR INITIATIVES",
+      "description": "The KYA Foundation was created in October 2022. Its purpose is to contribute to the socio-economic development of African populations from the most vulnerable groups through interventions in favor of development in the fields of energy, agriculture, medicine, education, and the environment.",
+      "tagline": "KYA Foundation, for a better world.",
+      "cta": "Download the commitment letter",
+      "stats": {
+        "employees": "Employees recruited",
+        "mission": "A mission",
+        "experience": "Years of experience"
+      }
+    },
+    "actions": {
+      "title": "Our means of action",
+      "items": [
+        "The granting of training scholarships and grants",
+        "The organization of innovation competitions",
+        "The organization of training courses, conferences, seminars",
+        "Support for entrepreneurs",
+        "Support for the empowerment of women and young girls",
+        "Support for the socio-professional integration of young graduates"
+      ]
+    },
+    "objectives": {
+      "title": "Our objectives",
+      "items": [
+        "Increase access to sustainable energy services in rural areas",
+        "Promote science and technology among women",
+        "Promote the employability of young people in renewable energies",
+        "Contribute to improving the quality of education",
+        "Contribute to the economic empowerment of women",
+        "Contribute to the fight against climate change"
+      ]
+    },
+    "domains": {
+      "title": "The areas of intervention",
+      "items": [
+        {
+          "title": "Education and training",
+          "description": "The KYA Foundation supports the education of young girls in science and technology, by valuing talents and offering scholarships to the most vulnerable."
+        },
+        {
+          "title": "Renewable energies",
+          "description": "The KYA Foundation facilitates access to sustainable energy in rural areas and provides free training for girls in the installation and maintenance of solar systems."
+        },
+        {
+          "title": "Sustainable development",
+          "description": "The KYA Foundation works for the Sustainable Development Goals, focusing on 7 priorities: fight against poverty, education, gender equality, sustainable energy, employment, climate and partnerships."
+        }
+      ]
+    },
+    "video": {
+      "title": "Discover our approach and our vision through this video presentation"
+    },
+    "gallery": {
+      "title": "Some images of our activities"
+    },
+    "sponsors": {
+      "title": "Our GOLD Sponsors"
+    }
+  },
+  "faq": {
+    "hero": {
+      "title": "FAQ",
+      "subtitle": "A question? We probably already have the answer.",
+      "searchPlaceholder": "Search"
+    },
+    "categories": {
+      "general": "General",
+      "maintenance": "Maintenance",
+      "financing": "Financing",
+      "installation": "Installation"
+    },
+    "questions": [
+      {
+        "question": "What is a KYA-SoP?",
+        "answer": "It is an intelligent and locally assembled solar power system by KYA, designed to efficiently meet the energy needs in rural and urban areas."
+      },
+      {
+        "question": "What does the KYA-SolDesign software do?",
+        "answer": "KYA-SolDesign is a software for sizing and simulating solar photovoltaic systems."
+      },
+      {
+        "question": "What are the advantages of a KYA solar system?",
+        "answer": "The advantages are numerous: energy autonomy, reduction of electricity bills, use of a clean and sustainable energy source, etc."
+      },
+      {
+        "question": "Do solar panels need maintenance?",
+        "answer": "Yes, regular maintenance is recommended to ensure optimal performance. This includes cleaning the panels and checking the components."
+      },
+      {
+        "question": "Are solar solutions accessible to everyone?",
+        "answer": "Yes, we offer financing solutions and support to make our solar systems accessible to as many people as possible."
+      },
+      {
+        "question": "Do you take care of the installation?",
+        "answer": "Yes, our team of qualified technicians takes care of the complete installation of your solar system."
+      },
+      {
+        "question": "Are there any aids or subsidies?",
+        "answer": "Depending on your country and your situation, there may be government aid or subsidies for the installation of solar systems."
+      },
+      {
+        "question": "What is the lifespan of a solar system?",
+        "answer": "A well-maintained solar system can have a lifespan of over 25 years."
+      },
+      {
+        "question": "What is the warranty on your products?",
+        "answer": "We offer a warranty on our products. The duration of the warranty varies depending on the components of the system."
+      },
+      {
+        "question": "How can I contact you?",
+        "answer": "You can contact us via the contact form on our website, by email, or by phone."
+      },
+      {
+        "question": "Do KYA solar systems work in the event of a power outage?",
+        "answer": "Yes, our systems can be equipped with batteries to store energy and provide you with electricity in the event of a power outage."
+      }
+    ]
+  },
   "switcher": {
     "locale": {
       "en": "English",
@@ -148,5 +268,39 @@
         "dark": "Switch to dark mode"
       }
     }
+  },
+  "products": {
+    "kya-sop-description": "KYA-SoP are intelligent, local and reliable solar systems, suitable for all environments, with anti-shedding function.",
+    "kya-soldesign-description": "KYA-SolDesign is an innovative solar sizing software, combining technical reliability and economic accessibility.",
+    "kya-ecolabel-description": "KYA-EcoLabel is a labeling software that evaluates the ecological and economic performance of solar systems compared to diesel generators.",
+    "kya-flexycontrol-description": "KYA-FlexyControl is a remote monitoring module for solar installations, allowing real-time monitoring and intelligent management of consumption priorities.",
+    "promotional-offers": "Our promotional offers",
+    "product-range": "Our product ranges",
+    "product-subtitle": "Energy solutions adapted to all your needs, from residential to community.",
+    "catalog-prompt": "Consult our KYA product catalog to find out more about our innovative solar solutions.",
+    "see-more": "See More"
+  },
+  "services": {
+    "title": "Our services",
+    "subtitle": "Complete support from study to maintenance of your installations",
+    "installation-title": "INSTALLATION",
+    "installation-description": "Installation of solar mini-power plants (hybrid), solar street lights, multifunctional solar platforms...",
+    "audit-title": "STUDY, AUDIT AND MONITORING-CONTROL",
+    "audit-description": "Operation and maintenance audit of mini-power plants Monitoring and control of energy works...",
+    "training-title": "CAPACITY BUILDING",
+    "training-description": "Training programs for technicians, students and professionals",
+    "rental-title": "KYA-SOP RENTAL SERVICE",
+    "rental-description": "Turnkey rental of autonomous solar systems",
+    "learn-more": "Learn More"
+  },
+  "financing": {
+    "title": "Financing Lease-Sale KYA-SoP",
+    "subtitle": "Access solar energy without significant initial investment",
+    "down-payment": "Initial deposit only",
+    "repayment-period": "Maximum repayment period",
+    "maintenance-included": "Installation and maintenance included"
+  },
+  "contact": {
+    "contact_us": "Contact Us"
   }
 }
